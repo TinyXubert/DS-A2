@@ -1,0 +1,19 @@
+{
+  "n_male": 73,
+  "n_female": 73,
+  "excluded": 6,
+  "difference_g": 674.6575342465753,
+  "welch_lower_g": 573.0139063407537,
+  "welch_upper_g": 776.301162152397,
+  "welch_p": 6.402319748031793e-26,
+  "bootstrap_lower_g": 577.3972602739727,
+  "bootstrap_upper_g": 774.6575342465749,
+  "sampling_coverage": 0.9494,
+  "sampling_coverage_mcse": 0.0030996657884359074,
+  "power_n20": 0.3512,
+  "power_n80": 0.881,
+  "naive_fpr_rho06": 0.295,
+  "corrected_fpr_rho06": 0.0512,
+  "naive_coverage_rho06": 0.705,
+  "corrected_coverage_rho06": 0.9488
+}

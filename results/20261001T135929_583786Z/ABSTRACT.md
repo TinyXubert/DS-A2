@@ -1,0 +1,7 @@
+## Abstract
+
+This study estimates the male-minus-female mean body-mass difference among Adelie penguins and examines how sampling assumptions affect uncertainty. The frozen dataset provides 73 male and 73 female complete records. A Welch analysis estimates a difference of 674.7 g, with a 95% interval of [573.0, 776.3] g. A 10,000-replicate within-group percentile bootstrap gives [577.4, 774.7] g. The predefined minimum meaningful difference is 200 g, used as a teaching threshold rather than a biological standard.
+
+Using 5,000 repetitions per scenario, normal-population simulations compare the sampling distribution with its known form and vary sample size, noise, and effect. Baseline Welch interval coverage is 94.9%. At a true difference of 200 g and a within-group standard deviation of 400 g, power rises from 35.1% at 20 observations per group to 88.1% at 80.
+
+A dependence counterexample holds marginal variance fixed while correlating records within clusters. With five records per cluster and correlation 0.6, the nominal 5% test has a false-positive rate of 29.5% when dependence is ignored, versus 5.1% when independent cluster means are analyzed. Corresponding interval coverage is 70.5% and 94.9%. These results distinguish larger nominal samples from more independent information. Real-data conclusions remain conditional on sampling and missingness assumptions and do not establish causality.

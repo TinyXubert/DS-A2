@@ -1,0 +1,15 @@
+{
+  "python": "3.10.20 (main, Mar 11 2026, 17:46:40) [GCC 14.3.0]",
+  "executable": "/data2/xuhongbo/DS_HW/DS-A2/.venv/bin/python",
+  "platform": "Linux-4.18.0-305.3.1.el8.x86_64-x86_64-with-glibc2.28",
+  "packages": {
+    "numpy": "1.26.4",
+    "pandas": "2.3.3",
+    "scipy": "1.15.3",
+    "matplotlib": "3.10.8",
+    "ipython": "8.39.0",
+    "ipykernel": "7.3.0",
+    "nbformat": "5.11.1",
+    "nbconvert": "7.17.1"
+  }
+}

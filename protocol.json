@@ -1,0 +1,63 @@
+{
+  "written_utc": "2026-10-01T13:51:27.923519+00:00",
+  "species": "Adelie",
+  "outcome": "body_mass_g",
+  "contrast": "male minus female",
+  "alpha": 0.05,
+  "meaningful_difference_g": 200,
+  "meaningful_difference_basis": "Teaching threshold, not an established biological standard",
+  "hypotheses": [
+    "delta = 0",
+    "delta != 0"
+  ],
+  "bootstrap_replicates": 10000,
+  "simulation_replicates": 5000,
+  "seeds": {
+    "bootstrap": 2026100101,
+    "sampling": 2026100102,
+    "power": 2026100103,
+    "cluster": 2026100104
+  },
+  "sampling": {
+    "n_per_group": 40,
+    "sigma_g": 400,
+    "delta_g": 200
+  },
+  "power": {
+    "n_per_group": [
+      10,
+      20,
+      40,
+      80,
+      160
+    ],
+    "sigma_g": [
+      250,
+      400,
+      600
+    ],
+    "delta_g": [
+      0,
+      100,
+      200,
+      400
+    ]
+  },
+  "cluster": {
+    "clusters_per_group": 20,
+    "records_per_cluster": 5,
+    "sigma_g": 400,
+    "rho": [
+      0,
+      0.3,
+      0.6
+    ],
+    "delta_g": [
+      0,
+      200
+    ]
+  },
+  "exclusions": "For Adelie only, exclude records missing body_mass_g or sex; include only male/female. Do not drop on unrelated fields.",
+  "primary_method": "Two-sided Welch t interval and test; independent-group percentile bootstrap sensitivity",
+  "policy": "Report all prespecified scenarios, no observed-power calculation; observed results cannot tune the power grid."
+}

@@ -1,0 +1,47 @@
+{
+  "validation_actor": "Codex; not student independent verification",
+  "welch_scipy_crosscheck": "passed across unequal sizes, unequal variance and skewed data",
+  "translation_invariance": "passed",
+  "raw_power_summary_consistency": "all 60 scenarios passed",
+  "cluster_mean_point_estimate_equivalence": "passed for all 6 scenarios",
+  "sampling_mean_mc_z": 0.0356953929705353,
+  "cluster_variance_checks": [
+    {
+      "scenario": 0,
+      "expected_sd": 56.568542494923804,
+      "measured_sd": 56.10230999357086,
+      "approx_mc_z": -0.8241079851283839
+    },
+    {
+      "scenario": 1,
+      "expected_sd": 56.568542494923804,
+      "measured_sd": 56.16055464850871,
+      "approx_mc_z": -0.7211553057548178
+    },
+    {
+      "scenario": 2,
+      "expected_sd": 83.90470785361212,
+      "measured_sd": 83.81718202851216,
+      "approx_mc_z": -0.10430531768547095
+    },
+    {
+      "scenario": 3,
+      "expected_sd": 83.90470785361212,
+      "measured_sd": 84.20446773282437,
+      "approx_mc_z": 0.35722656021675425
+    },
+    {
+      "scenario": 4,
+      "expected_sd": 104.30723848324239,
+      "measured_sd": 104.79342443897318,
+      "approx_mc_z": 0.46606289436197135
+    },
+    {
+      "scenario": 5,
+      "expected_sd": 104.30723848324239,
+      "measured_sd": 106.42976766999138,
+      "approx_mc_z": 2.034678469181765
+    }
+  ],
+  "embedded_figures": 4
+}

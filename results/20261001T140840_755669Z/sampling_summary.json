@@ -1,0 +1,11 @@
+{
+  "rejection_rate": 0.6022,
+  "rejection_mcse": 0.006921779539973806,
+  "coverage": 0.9494,
+  "coverage_mcse": 0.0030996657884359074,
+  "mean_width": 354.61268507968674,
+  "empirical_mean": 200.04515149750466,
+  "empirical_sd": 90.10265712076028,
+  "theoretical_mean": 200,
+  "theoretical_sd": 89.44271909999159
+}

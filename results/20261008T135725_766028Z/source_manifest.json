@@ -1,0 +1,10 @@
+{
+  "download_url": "https://raw.githubusercontent.com/allisonhorst/palmerpenguins/8957207b78d6ccd1b4654a9dd9c9041b657478ab/inst/extdata/penguins.csv",
+  "upstream_commit": "8957207b78d6ccd1b4654a9dd9c9041b657478ab",
+  "retrieved_utc": "2026-10-01T13:51:30.340690+00:00",
+  "sha256": "f204db2c753b0937caac3cb35258562c14f073e4bbc76be24b4c51ce22767a93",
+  "license": "CC0",
+  "documentation": "https://allisonhorst.github.io/palmerpenguins/",
+  "kaggle_discovery_page": "https://www.kaggle.com/datasets/parulpandey/palmer-archipelago-antarctica-penguin-data",
+  "note": "Downloaded upstream simplified CSV, not a Kaggle archive; no claim of byte identity to Kaggle mirror."
+}
